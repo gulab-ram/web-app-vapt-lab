@@ -1,0 +1,4 @@
+1793130000.000000	TestUID001	10.0.0.5	12345	172.17.0.2	3000	1	GET	172.17.0.2:3000	/rest/products/search?q=apple'%20OR%20'1'='1	-	1.1	TestAgent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1793130001.000000	TestUID002	10.0.0.5	12346	172.17.0.2	3000	1	GET	172.17.0.2:3000	/rest/products/search?q=<script>alert(1)</script>	-	1.1	TestAgent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1793130002.000000	TestUID003	10.0.0.5	12347	172.17.0.2	3000	1	GET	172.17.0.2:3000	/../../etc/passwd	-	1.1	TestAgent	-	0	0	404	Not Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1793130003.000000	TestUID004	10.0.0.5	12348	172.17.0.2	3000	1	GET	172.17.0.2:3000	/	-	1.1	sqlmap/1.6	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
